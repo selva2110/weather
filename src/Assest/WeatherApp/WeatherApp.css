@@ -1,0 +1,142 @@
+.container{
+    width: auto;
+    height: 915px;
+    margin: none;
+    /* margin-top: 75px; */
+    /* border-radius: 12px; */
+    background-image: linear-gradient(blue,pink);
+    background-image: url(../Icons/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 30px;
+    position: relative;
+}
+.topBar input{
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topBar img{
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    width: 78px;
+    height: 78px;
+    background: white;
+    cursor: pointer;
+}
+.weather-image{
+    display: flex;
+    margin-top: 29px;
+    justify-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 120px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 60px;
+    font-weight: 400;
+}
+.data-container{
+    margin-top: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.element{
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    gap: 32px;
+   
+}
+.data{
+    font-size: 34px;
+    font-weight: 400;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon{
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 50px;
+    font-weight: 400;
+    color: lightblack;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+    width: auto;
+    height: 915px;
+    }
+    .weather-temp{
+        flex-wrap: nowrap;
+    }
+    .topBar input{
+        display: flex;
+        width: 222px;
+        height: 78px;
+        background-color: white;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        padding-left: 40px;
+        color: black;
+        font-size: xx-large;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .topBar img{
+        display: flex;
+        justify-content: center;
+        border-radius: 40px;
+        width: 78px;
+        height: 78px;
+        background: white;
+        cursor: pointer;
+    }
+    .weather-temp{
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 80px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .data{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .footer{
+        margin-top: 80px;
+        font-weight: 400;
+        color: lightblack;
+    
+    }
+  }
